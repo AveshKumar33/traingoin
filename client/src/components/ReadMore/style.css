@@ -1,0 +1,11 @@
+.text {
+    font-size: 16px;
+    color: #000;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.read-or-hide {
+    color: #0d6efd !important;
+    cursor: pointer;
+}

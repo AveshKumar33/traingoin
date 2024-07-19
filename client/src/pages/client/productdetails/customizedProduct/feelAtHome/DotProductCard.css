@@ -1,0 +1,23 @@
+@media screen and (min-width: 990px) {
+  .FeelAtHomeSectionStyle1 {
+    float: left;
+    padding: 5px 0px 40px 40px;
+    text-align: justify;
+  }
+  .FeelAtHomeSectionStyle2 {
+    float: left;
+    padding: 0px 0px 0px 50px;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .FeelAtHomeSectionStyle1 {
+    float: left;
+    padding: 5px 0px 40px 10px;
+    text-align: justify;
+  }
+  .FeelAtHomeSectionStyle2 {
+    float: left;
+    padding: 0px 0px 0px 10px;
+  }
+}

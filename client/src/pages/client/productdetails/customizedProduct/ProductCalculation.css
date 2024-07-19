@@ -1,0 +1,43 @@
+.refercard {
+  border-color: #305846 !important;
+}
+
+.ProductCalculation-card {
+  background: #475b52 !important;
+  padding: 1rem !important;
+  color: #eef3f8;
+}
+
+.Select-quantity-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center ;
+  text-align: center;
+}
+.Select-quantity-heading-img-icon {
+  display: flex;
+position: relative;
+gap: 5px;
+}
+
+.cursor-pointer{
+    cursor: pointer;
+}
+
+.CalculateNow{
+    color: #F7941D;
+    font-weight: bold;
+}
+.CalculateNowDiv{
+    display: flex;
+    gap: 10px;
+    align-items: baseline;
+}
+.text-Color-Theme{
+    color: #F7941D;
+
+}
+
+.minInput-width{
+  min-width: 50%;
+}

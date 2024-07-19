@@ -1,0 +1,134 @@
+.containers:hover .overlays {
+  height: 20%;
+  opacity: 1;
+}
+
+.overlays {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #475b52;
+  padding: 10px;
+  height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition: height 0.3s, opacity 0.3s;
+}
+
+.test-inline-ellipsis {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  -webkit-line-clamp: 2; /* Number of lines to show */
+  text-overflow: ellipsis;
+}
+
+.containers {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+}
+
+/* .product-name {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 200px;
+  } */
+
+.Request-for-Price-btn {
+  border: none;
+  margin-right: 10px;
+  background-color: #475b52;
+  font-size: 12px;
+}
+
+
+.ProductCardHoverCustomizedelevation {
+  border: 1px solid #ddd;
+  /* border-radius:10px; */
+  /* margin-bottom: 20px; */
+  /* height:82vh; */
+  background-color: #fff;
+}
+
+.ProductCardHoverCustomizedelevation:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  /* border-radius:10px; */
+  background-color: #fff;
+  /* height:82vh; */
+}
+
+.ProductCardHoverroomidea {
+  border: 1px solid #ddd;
+  /* border-radius:10px; */
+  /* margin-bottom: 20px; */
+  height: 82vh;
+  background-color: #fff;
+}
+
+.ProductCardHoverroomidea:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  /* border-radius:10px; */
+  background-color: #fff;
+  height: 82vh;
+}
+
+@media screen and (min-width: 990px) {
+  .homeproductcardstyle {
+    float: left;
+    /* margin-right: 5px; */
+    width: 32.1vw;
+    padding-right: 1px !important;
+    padding-left: 1px !important;
+    margin-top: 5px;
+  }
+  .homeproductcardimage {
+    height: 65vh !important;
+    width: 33.2vw;
+  }
+  .ProductCardHover {
+    border: 1px solid #ddd;
+    /* border-radius:10px; */
+    /* margin-bottom: 20px; */
+    height: 82vh;
+    background-color: #fff;
+  }
+  
+  .ProductCardHover:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    /* border-radius:10px; */
+    background-color: #fff;
+    height: 82vh;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .homeproductcardstyle {
+    float: left;
+    margin-right: 5px;
+    width: 100vw;
+    padding-right: 1px !important;
+    padding-left: 1px !important;
+    margin-top: 5px;
+  }
+  .homeproductcardimage {
+    height: 40vh !important;
+    width: 100vw;
+  }
+  .ProductCardHover {
+    border: 1px solid #ddd;
+    /* border-radius:10px; */
+    /* margin-bottom: 20px; */
+    height: 55vh;
+    background-color: #fff;
+  }
+  
+  .ProductCardHover:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    /* border-radius:10px; */
+    background-color: #fff;
+    height: 55vh;
+  }
+}

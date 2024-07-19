@@ -1,0 +1,71 @@
+.product-box {
+  display: flex;
+
+  padding: 1rem;
+}
+
+.product-desc {
+  flex: 1;
+  margin-left: 16px;
+}
+
+.product-img-1 {
+  width: 100px;
+  height: auto;
+}
+
+.ant-input  {
+  box-sizing: border-box;
+  margin: 0;
+  font-variant: tabular-nums;
+  list-style: none;
+  font-feature-settings: "tnum";
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  height: 100px;
+  padding: 4px 11px;
+  color: rgba(0, 0, 0, 0.65);
+  font-size: 14px;
+  line-height: 1.5;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+  transition: all 0.3s;
+}
+
+.Add-Your-Review{
+    padding:  0rem 1rem;
+}
+
+
+
+/* Image Uploader Style */
+
+.upload-container-rating {
+  position: relative;
+}
+
+.upload-container-rating input {
+  border: 1px solid #92b0b3;
+  background: #fff;
+  outline: 2px dashed #92b0b3;
+  outline-offset: -10px;
+  padding: 3rem;
+  text-align: center !important;
+  width: 100%;
+}
+
+.upload-container-rating input:hover {
+  background: #fff;
+}
+
+/* .upload-container-rating:before {
+  position: absolute;
+  bottom: 1rem;
+  left: 3rem;
+  content: " (or) Drag and Drop files here. ";
+  color: #3f8188;
+  font-weight: 900;
+} */

@@ -1,0 +1,147 @@
+.containers:hover .overlays {
+  height: 20%;
+  opacity: 1;
+}
+
+.overlays {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #475b52;
+  padding: 10px;
+  height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition: height 0.3s, opacity 0.3s;
+}
+
+.test-inline-ellipsis {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  -webkit-line-clamp: 2;
+  /* Number of lines to show */
+  text-overflow: ellipsis;
+}
+
+.containers {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+}
+
+/* .product-name {
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-width: 200px;
+    } */
+
+.Request-for-Price-btn {
+  border: none;
+  margin-right: 10px;
+  background-color: #475b52;
+  font-size: 12px;
+}
+
+.ProductCardHoverCustomizedelevation {
+  border: 1px solid #ddd;
+  /* border-radius:10px; */
+  /* margin-bottom: 20px; */
+  /* height:82vh; */
+  background-color: #fff;
+}
+
+.ProductCardHoverCustomizedelevation:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  /* border-radius:10px; */
+  background-color: #fff;
+  /* height:82vh; */
+}
+
+.ProductCardHoverroomidea {
+  border: 1px solid #ddd;
+  /* border-radius:10px; */
+  /* margin-bottom: 20px; */
+  height: 107vh;
+  background-color: #fff;
+}
+
+.ProductCardHoverroomidea:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  /* border-radius:10px; */
+  background-color: #fff;
+  height: 82vh;
+}
+
+@media screen and (min-width: 990px) {
+  .ProductCardHover {
+    border: 1px solid #ddd;
+    /* border-radius:10px; */
+    /* margin-bottom: 20px; */
+    height: 82vh !important;
+    background-color: #fff;
+  }
+
+  .ProductCardHover:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    /* border-radius:10px; */
+    background-color: #fff;
+    height: 82vh !important;
+  }
+  .homeproductcardimage {
+    height: auto !important;
+    width: 100vw;
+  }
+  .customizedwishlishtproductcard {
+    float: left;
+    margin-right: 5px;
+    width: 32.7vw !important;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-top: 5px;
+  }
+}
+@media screen and (max-width: 990px) {
+  .ProductCardHover {
+    border: 1px solid #ddd;
+    /* border-radius:10px; */
+    /* margin-bottom: 20px; */
+    height: 62vh !important;
+    background-color: #fff;
+  }
+
+  .ProductCardHover:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    /* border-radius:10px; */
+    background-color: #fff;
+    height: 55vh;
+  }
+  .homeproductcardimage {
+    height: auto !important;
+    width: 100vw;
+  }
+  .ProductCardHoverroomidea {
+    border: 1px solid #ddd;
+    /* border-radius:10px; */
+    /* margin-bottom: 20px; */
+    height: 58vh !important;
+    background-color: #fff;
+  }
+
+  .ProductCardHoverroomidea:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    /* border-radius:10px; */
+    background-color: #fff;
+    height: 58vh !important;
+  }
+  .customizedwishlishtproductcard {
+    float: left;
+    margin-right: 5px;
+    width: 100vw;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-top: 5px;
+  }
+}

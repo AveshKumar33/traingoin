@@ -1,0 +1,149 @@
+.profile_card {
+  position: relative;
+  float: left;
+  overflow: hidden;
+  width: 100%;
+  text-align: center;
+  height: 320px;
+  border: none;
+}
+
+.contact-info a {
+  text-decoration: none;
+}
+
+.profile_card .background-block {
+  float: left;
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+
+.profile_card .background-block .background {
+  width: 100%;
+  vertical-align: top;
+  /* opacity: 0.9; */
+  /* -webkit-filter: blur(0.5px); */
+  /* filter: blur(0.5px); */
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+}
+
+.profile_card .card-content {
+  width: 100%;
+  padding: 15px 25px;
+  color: #232323;
+  float: left;
+  background: linear-gradient(
+    to bottom,
+    rgb(221, 221, 221),
+    rgb(255, 255, 255)
+  );
+  height: 50%;
+  border-radius: 0 0 5px 5px;
+  position: relative;
+  z-index: 9999;
+}
+
+.profile_card .card-content::before {
+  content: "";
+  /* background: #efefef; */
+  background: linear-gradient(
+    to bottom,
+    rgb(221, 221, 221),
+    rgb(255, 255, 255)
+  );
+  width: 120%;
+  height: 150%;
+  left: 1px;
+  bottom: 0px;
+  position: absolute;
+  z-index: -1;
+  transform: rotate(-10deg);
+}
+
+.icon-block a {
+  margin-right: 10px;
+}
+
+.profile_card .profile {
+  border-radius: 50%;
+  position: absolute;
+  bottom: 40%;
+  left: 50%;
+  max-width: 200px;
+  opacity: 1;
+  box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.5);
+  border: 2px solid rgba(255, 255, 255, 1);
+  -webkit-transform: translate(-50%, 0%);
+  transform: translate(-50%, 0%);
+  z-index: 99999;
+}
+
+.profile_card h2 {
+  margin: 0 0 5px;
+  font-weight: 600;
+  font-size: 25px;
+}
+
+.profile_card h2 small {
+  display: block;
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+.profile_card i {
+  display: inline-block;
+  font-size: 16px;
+  color: #232323;
+  text-align: center;
+  border: 1px solid #232323;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 50%;
+  margin: 0 5px;
+}
+
+.profile_card .icon-block {
+  float: left;
+  width: 100%;
+  margin-top: 15px;
+}
+
+.profile_card .icon-block a {
+  text-decoration: none;
+}
+
+.profile_card i:hover {
+  background-color: #232323;
+  color: #fff;
+  text-decoration: none;
+}
+
+.box-part {
+  background: #fff;
+  border-radius: 0;
+  padding: 50px 10px;
+  margin: 30px 0px;
+}
+
+.edt_icon {
+  width: 25px;
+  margin-left: 10px;
+  margin-bottom: 9px;
+}
+
+.icon_bottom_s {
+  width: 60px;
+  margin-bottom: 20px;
+}
+.css-11yukd5-MuiTabs-indicator {
+  position: absolute;
+  height: 2px;
+  bottom: 0;
+  width: 100%;
+  -webkit-transition: all 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: all 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  background-color: #fff !important;
+}

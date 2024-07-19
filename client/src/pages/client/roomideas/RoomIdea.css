@@ -1,0 +1,140 @@
+.imageLoader {
+  background: url("../../../assets/Image/imageLoader.gif");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+@media screen and (min-width: 990px) {
+  .RoomIdeaMarginTop {
+    padding: 40px 40px 0px 40px;
+  }
+  .RoomIdeaImageStyle {
+    height: 70vh;
+    /* border-radius: 5%; */
+  }
+  .RoomIdeaDetailsMarginTop {
+    padding: 40px 40px 0px 40px;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .RoomIdeaMarginTop {
+    /* margin-top: -18vh; */
+    padding: 20px;
+  }
+  .RoomIdeaImageStyle {
+    height: 40vh;
+    /* border-radius: 5%; */
+  }
+  .RoomIdeaDetailsMarginTop {
+    margin-top: -16vh;
+    padding: 40px 40px 0px 40px;
+  }
+  .RoomIdeaDetailsMarginBottom {
+    margin-bottom: 40px;
+  }
+}
+
+.gallery {
+  column-count: 3;
+  --webkit-column-count: 3;
+  --moz-column-count: 3;
+  /* gap: 1rem; */
+  padding: 2rem;
+}
+
+.single-image {
+  height: auto;
+  width: 100%;
+  margin: 0.2rem;
+}
+
+/* Responsive-ness for different screen-sizes */
+@media screen and (max-width: 810px) {
+  .gallery {
+    column-count: 3;
+    --webkit-column-count: 3;
+    --moz-column-count: 3;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .gallery {
+    column-count: 2;
+    --webkit-column-count: 2;
+    --moz-column-count: 2;
+  }
+  .idea-main-title {
+    font-size: 24px;
+    font-weight: 700;
+    color: #222;
+    line-height: 29px;
+    /* width: calc(100% - 180px); */
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .gallery {
+    column-count: 1;
+    --webkit-column-count: 1;
+    --moz-column-count: 1;
+  }
+  .idea-main-title {
+    font-size: 18px;
+    font-weight: 700;
+    color: #222;
+    line-height: 29px;
+    /* width: calc(100% - 180px); */
+  }
+}
+
+
+
+.ProductCardHover:hover {
+  border: 1px solid #ddd;
+  /* border-radius:10px; */
+}
+
+a {
+  text-decoration: none !important;
+}
+
+@media screen and (min-width: 990px) {
+  .HideInDesktop {
+    display: none;
+  }
+  .buyfromelevationcard {
+    float: left;
+    margin-right: 5px;
+    width: 50vw !important;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-top: 5px;
+  }
+  .buyfromelevationcardimage {
+    height: auto !important;
+    width: 50vw !important;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .HideInPhone {
+    display: none;
+  }
+  .FilterStyle {
+    /* margin-left: 35px; */
+    width: 100% !important;
+  }
+  .buyfromelevationcard {
+    float: left;
+    margin-right: 5px;
+    width: 100vw !important;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-top: 5px;
+  }
+  .buyfromelevationcardimage {
+    height: 45vh !important;
+    width: 100vw !important;
+  }
+}

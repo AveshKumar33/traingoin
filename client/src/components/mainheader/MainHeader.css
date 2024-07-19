@@ -1,0 +1,39 @@
+.sidebarMenu-container {
+    position: relative;
+  }
+  
+  .sidebarMenu {
+    position: fixed;
+    top: 0;
+    right: -350px; /* Adjust the value based on the width of your sidebar */
+    width: 350px; /* Adjust the width of your sidebar */
+    height: 100%;
+    /* background: linear-gradient(to right, rgb(221, 221, 221), rgb(255, 255, 255)); */
+    /* background-color: #fff; */
+    background-image: url(../../assets/Image/BackgroundImageRight.png);
+    background-size: cover;
+    background-position: center;
+    transition: right 1s ease-in-out;
+    z-index: 999;
+    border-left: 1px solid #475B52;
+    box-shadow: -10px 0 15px rgba(0, 0, 0, 0.5);
+}
+
+  
+  .sidebarMenu.open {
+    right: 0;
+  }
+  
+/* Close button styles */
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+/* Icon styles for close button */
+.close-icon {
+  font-size: 24px;
+  color: #475B52; /* Close icon color */
+}

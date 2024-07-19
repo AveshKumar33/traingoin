@@ -1,0 +1,219 @@
+@keyframes cart-move {
+    0% {
+        transform: translate(0%, 0) rotate(0);
+    }
+
+    22% {
+        transform: translate(66.6%, 0) rotate(-20deg);
+    }
+
+    33% {
+        transform: translate(100%, 0) rotate(0);
+    }
+
+    38.5% {
+        transform: translate(100%, 2px);
+    }
+
+    44% {
+        transform: translate(100%, 0);
+    }
+
+    49.5% {
+        transform: translate(100%, 2px);
+    }
+
+    55% {
+        transform: translate(100%, 0);
+    }
+
+    66% {
+        transform: translate(100%, 0) rotate(0);
+    }
+
+    88% {
+        transform: translate(166.6%, 0) rotate(-20deg);
+    }
+
+    100% {
+        transform: translate(200%, 0) rotate(-20deg);
+    }
+}
+
+@keyframes dotdotdot-move {
+    0% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+
+    50% {
+        transform: translateY(-20px);
+        opacity: 1;
+    }
+
+    95% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 0;
+    }
+}
+
+/* html,
+body {
+    background-color: #eeeeee;
+    font-family: sans-serif;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.credit {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.add-to-cart {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: #e91e63;
+    padding: 5px 20px;
+    min-width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: white;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+    transition: box-shadow 0.15s ease-out, background-color 0.15s ease-out;
+    outline: none;
+    overflow: hidden;
+    background-color: #475B52;
+}
+
+.add-to-cart:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.add-to-cart:focus-visible {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.add-to-cart:active {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    background-color: #f9f9f9;
+}
+
+.add-to-cart .plus-icon {
+    margin-right: 0.3em;
+    margin-left: -0.3em;
+    margin-top: -2px;
+    width: 20px;
+    height: 20px;
+}
+
+.add-to-cart .increase-icon {
+    margin-right: 0.3em;
+    margin-left: -0.3em;
+    margin-top: -2px;
+    width: 20px;
+    height: 20px;
+}
+
+.add-to-cart .decrease-icon {
+    margin-right: -0.3em;
+    margin-left: 0.3em;
+    margin-top: -2px;
+    width: 20px;
+    height: 20px;
+}
+
+.add-to-cart .cart-icon {
+    position: absolute;
+    left: calc(-100% - 3px);
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 100%;
+    pointer-events: none !important;
+    color: #f9f9f9 !important;
+    background-color: #475B52;
+}
+
+.add-to-cart.adding .cart-icon {
+    animation: cart-move 2s linear;
+}
+
+.add-to-cart .text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #f9f9f9;
+
+    opacity: 1;
+    margin-bottom: -2px;
+    transition: opacity 0.3s ease-out, transform 0.3s ease-out;
+}
+
+.add-to-cart:not(.removed) .text.removed {
+    opacity: 0;
+    transform: translateY(-10px);
+}
+
+.add-to-cart:not(.added) .text.added {
+    opacity: 0;
+    transform: translateY(10px);
+}
+
+.add-to-cart .dotdotdot {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    width: 12px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    pointer-events: none;
+}
+
+.add-to-cart .dotdotdot .dot {
+    display: inline-block;
+    height: 4px;
+    width: 4px;
+    border-radius: 50%;
+    background-color: #f9f9f9;
+    opacity: 0;
+}
+
+.add-to-cart.adding .dotdotdot .dot {
+    animation: dotdotdot-move 1s ease-in-out forwards;
+}
+
+.add-to-cart.adding .dotdotdot .dot.one {
+    animation-delay: 0s;
+}
+
+.add-to-cart.adding .dotdotdot .dot.two {
+    animation-delay: 0.07s;
+}
+
+.add-to-cart.adding .dotdotdot .dot.three {
+    animation-delay: 0.14s;
+}

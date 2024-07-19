@@ -1,0 +1,29 @@
+@media screen and (min-width: 990px) {
+  .customizedelevationcardstyle {
+    float: left;
+    margin-right: 5px;
+    width: 33.2vw;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-top: 5px;
+  }
+  /* .customizedelevationcardImagestyle{
+    height: 70vh !important;
+  } */
+}
+.customizedelevationcardImagestyle {
+  height: auto !important;
+}
+@media screen and (max-width: 990px) {
+  .customizedelevationcardstyle {
+    float: left;
+    margin-right: 5px;
+    width: 100vw;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-top: 5px;
+  }
+  /* .customizedelevationcardImagestyle{
+    height: auto !important;
+  } */
+}

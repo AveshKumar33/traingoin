@@ -1,0 +1,14 @@
+.blinking-border {
+  outline: 2px dotted #475B52;
+  animation: blink 1000ms infinite;
+}
+
+@keyframes blink {
+  0%,
+  100% {
+    outline-color: transparent;
+  }
+  50% {
+    outline-color: #475B52;
+  }
+}

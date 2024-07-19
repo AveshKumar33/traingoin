@@ -1,0 +1,31 @@
+@media screen and (max-width: 990px) {
+  .CustomizedCombinationProducts {
+    height: 60vh !important;
+  }
+  .CustomizedCombinationProductsContent {
+    margin-top: 250px;
+  }
+}
+@media screen and (max-width: 990px) {
+  .CustomizedComboDiv1 {
+    width: 50% !important;
+    float: left !important;
+  }
+  .CustomizedComboDiv2 {
+    width: 15% !important;
+    float: left !important;
+  }
+  .CustomizedComboDiv3 {
+    width: 10% !important;
+    float: left !important;
+  }
+  .CustomizedCombinationProducts {
+    height: auto !important;
+  }
+  .CustomizedCombinationProductsContent {
+    margin-top: 280px;
+  }
+  .CustomizedCombinationProductsName {
+    font-size: 16px;
+  }
+}

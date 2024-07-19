@@ -1,0 +1,181 @@
+.sticky-container1 {
+  padding: 0px;
+  margin: 0px;
+  position: fixed;
+  left: -260px;
+  top: 40%;
+  width: 300px;
+  z-index: 1100;
+}
+
+.sticky1 li {
+  list-style-type: none;
+  background-color: #fff;
+  color: #efefef;
+  font-size: 22px;
+  height: 43px;
+  padding: 0px;
+  margin: 0px 0px 1px 0px;
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+  cursor: pointer;
+  padding-top: 8px;
+}
+
+.sticky1 li img {
+  float: left;
+  margin: 5px 4px;
+  margin-right: 5px;
+}
+
+.sticky1 li p {
+  padding-top: 5px;
+  margin: 0px;
+  line-height: 16px;
+  font-size: 11px;
+}
+
+.sticky1 li p a {
+  text-decoration: none;
+  color: #2c3539;
+}
+
+.sticky1 li p a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 990px) {
+  .sticky-container1 {
+    padding: 0px;
+    margin: 0px;
+    position: fixed;
+    top: 40%;
+    width: 300px;
+    z-index: 1100;
+    left: -120px;
+  }
+}
+
+.sticky1 .Hoverclass1 {
+  background-color: #475b52;
+}
+
+.sticky1 .Hoverclass1:hover {
+  background-color: rgb(71, 91, 82, 0.7);
+}
+@media (min-width: 991px) {
+  .FloatingolClass,
+  .FloatingulClass1 {
+    padding-left: 2rem;
+  }
+}
+
+@media (max-width: 991px) {
+  .FloatingolClass,
+  .FloatingulClass1 {
+    padding-left: 30px;
+  }
+}
+.icons {
+  top: 75%;
+  left: 0;
+  transform: translateY(-50%);
+  position: fixed;
+  z-index: 100;
+}
+.icons ul {
+  padding: initial;
+}
+.icons ul li {
+  height: 40px;
+  width: 40px;
+  list-style-type: none;
+  padding-left: 12px;
+  padding-top: 6px;
+  margin-top: 5px;
+  color: #fff;
+}
+
+.icons ul li:hover {
+  padding-right: 30px;
+  width: 80px;
+}
+
+.Whatsapp {
+  background: #25d366;
+}
+
+.Mail {
+  background: #d44638;
+}
+
+/* sticky1 Sidebar */
+
+.sticky-container1 {
+  padding: 0px;
+  margin: 0px;
+  position: fixed;
+  left: -260px;
+  top: 40%;
+  width: 300px;
+  z-index: 1100;
+}
+
+.sticky1 li {
+  list-style-type: none;
+  background-color: #fff;
+  color: #efefef;
+  height: 43px;
+  padding: 0px 0px 0px 235px;
+  margin: 0px 0px 1px 0px;
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+  cursor: pointer;
+  padding-top: 5px;
+}
+
+.sticky1 li img {
+  float: left;
+  margin: 5px 4px;
+  margin-right: 5px;
+}
+
+.sticky1 li p {
+  padding-top: 5px;
+  margin: 0px;
+  line-height: 16px;
+  font-size: 11px;
+}
+
+.sticky1 li p a {
+  text-decoration: none;
+  color: #2c3539;
+}
+
+.sticky1 li p a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 990px) {
+  .sticky-container1 {
+    padding: 0px;
+    margin: 0px;
+    position: fixed;
+    top: 40%;
+    width: 300px;
+    z-index: 1100;
+    left: -262px;
+  }
+}
+
+.sticky1 .Hoverclass1 {
+  background-color: #475b52;
+}
+
+.sticky1 .Hoverclass1:hover {
+  background-color: rgb(71, 91, 82, 0.7);
+}

@@ -1,0 +1,58 @@
+@media screen and (min-width: 990px) {
+  .SingleBlogContentStyle {
+    text-align: justify;
+    float: left;
+    padding: 0px 0px 20px 20px;
+  }
+  .SingleBlogContentStyle1 {
+    text-align: center;
+    font-weight: 600;
+  }
+  .exploreallproductsstyle {
+    float: left;
+    background-size: cover;
+    background-position: center;
+    height: 25vh;
+    border-radius: 100%;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    width: 12vw !important;
+  }
+  .exploreallproductstyleheading {
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .SingleBlogContentStyle {
+    text-align: justify;
+    float: left;
+    padding: 20px 0px 20px 0px;
+  }
+  .SingleBlogContentStyle1 {
+    text-align: justify;
+    font-weight: 600;
+  }
+  .exploreallproductsstyle {
+    float: left;
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    border-radius: 100%;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    width: 90vw;
+    padding: 40px;
+  }
+  .exploreallproductstyleheading {
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+  }
+}
+.exploreallproductstyleheadingColor12 {
+  color: #475b52 !important;
+}

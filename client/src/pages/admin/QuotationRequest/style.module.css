@@ -1,0 +1,267 @@
+.container {
+    box-sizing: border-box;
+    /* padding: 10px; */
+    width: 612px;
+    margin: 20px auto;
+    border: 1px solid black;
+}
+
+.firstPage,
+.fourthPage {
+    background-color: #324A42;
+    height: 792px;
+    width: 612px;
+}
+
+.no-spin input::-webkit-outer-spin-button,
+.no-spin input::-webkit-inner-spin-button {
+    -webkit-appearance: none !important;
+    margin: 0 !important;
+}
+
+
+.firstPage .whiteLogo {
+    height: 792px;
+    background-image: url("../../../assets/quotation/white-logo-with-name.png");
+    background-position: center center;
+    background-size: 30%;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.firstPage .text {
+    position: absolute !important;
+    bottom: 0 !important;
+    width: 612px;
+    padding: 30px;
+    margin-bottom: -200px;
+}
+
+.firstPage .text p {
+    font-family: Arial, Helvetica, sans-serif !important;
+    font-size: 14px !important;
+    color: white !important;
+    font-weight: 400;
+    line-height: 130%;
+    text-align: justify;
+}
+
+.blackBorder {
+    border: 0.6px solid #000000;
+    border-color: #ffffff #000000 #000000 #000000;
+    width: 612px;
+    height: 10px;
+    background-color: #000000;
+}
+
+.secondPage {
+    /* height: 792px; */
+    width: 612px;
+}
+
+.secondPage .blackLogoContainer,
+.thirdPage .blackLogoContainer,
+.fourthPage .whiteLogoContainer {
+    text-align: center;
+}
+
+.blackLogo,
+.bottomWhiteLogo {
+    width: 250px;
+    user-select: none;
+}
+
+.secondPage .secondPageContainer,
+.thirdPage {
+    padding: 0px 20px;
+}
+
+.secondPage .secondPageContainer .headerText,
+.thirdPage .customizeProductDetailsContainer .headerText {
+    background-color: #324A42;
+    text-align: center;
+    color: #ffffff;
+    padding: 2px 0px;
+}
+
+.secondPage .secondPageContainer .dateContaiiner {
+    margin-top: 3px;
+    text-align: right;
+}
+
+.secondPage .secondPageContainer .date {
+    background-color: #324A42;
+    padding: 2px 3px;
+    font-size: 12px;
+    color: #ffffff;
+    display: inline-block;
+}
+
+.titleContainer {
+    border: 0.1rem solid #324A42;
+    border-radius: 3px;
+    display: inline-block;
+    padding: 1px 10px;
+    color: #324A42;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.companyTable,
+.clientTable {
+    border-collapse: separate;
+    border-spacing: 2px;
+    width: 100%;
+    font-size: 12px;
+}
+
+.companyTable .companyDetails tr th {
+    background-color: #324A42;
+    color: #ffffff;
+    font-weight: 500;
+    width: 20%;
+    padding: 2px 5px;
+}
+
+.companyTable .companyDetails tr th::after {
+    content: ":";
+    float: right;
+}
+
+.companyTable .companyDetails tr td {
+    font-weight: 500;
+    width: 30%;
+    background-color: #eae7e7;
+    padding-left: 2px;
+}
+
+.columnsCollaps1,
+.columnsCollaps2 {
+    background-color: #ffffff !important;
+}
+
+.columnsCollaps1 {
+    padding-left: 0px !important;
+}
+
+.columnsCollaps2 {
+    padding-left: 30px !important;
+}
+
+
+.clientTable .clientDetails tr th {
+    background-color: #324A42;
+    color: #ffffff;
+    font-weight: 500;
+    width: 14%;
+    padding: 2px 5px;
+}
+
+.clientTable .clientDetails tr th::after {
+    content: ":";
+    float: right;
+}
+
+.clientTable .clientDetails tr td {
+    font-weight: 500;
+    width: 17%;
+    background-color: #eae7e7;
+    padding-left: 2px;
+}
+
+.thirdPage .productName {
+    text-align: center;
+}
+
+.thirdPage .productName>div {
+    background-color: #324A42;
+    display: inline-block;
+    padding: 1px 7px;
+    color: #ffffff;
+    border-radius: 5px;
+}
+
+.thirdPage,
+.imageDecleration {
+    font-size: 12px;
+    margin-top: -8px;
+}
+
+.thirdPage .articles {
+    text-align: center;
+    color: #324A42;
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.headerName {
+    margin-top: 5px;
+}
+
+.fourthPage {
+    padding: 0px 20px;
+    font-family: Arial, Helvetica, sans-serif !important;
+}
+
+.accountDetailsContainer {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.accountDetailsContainer .accountDetails .accountData>div {
+    font-family: Arial, Helvetica, sans-serif !important;
+    display: inline-block;
+    text-align: left;
+    color: #ffffff;
+    font-size: 13px;
+}
+
+.accountDetailsContainer .accountData div:first-child {
+    width: 150px;
+}
+
+.accountDetailsContainer .QRCode img {
+    width: 100px;
+}
+
+.accountDetailsContainer .QRCode .QRText {
+
+    color: #ffffff;
+    font-size: 10px;
+    text-align: center;
+
+}
+
+.fourthPage .tAndC {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 550;
+    text-align: center;
+}
+
+.fourthPage .tAcdCDetails p {
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11.5px;
+    line-height: 120%;
+    text-align: justify;
+    margin: 7px 0px;
+}
+
+.fourthPage .signature .signatureContainer {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fourthPage .signature .signatureContainer>div {
+    padding-bottom: 20px;
+    color: #ffffff;
+    border-bottom: 1px solid #ffffff;
+}

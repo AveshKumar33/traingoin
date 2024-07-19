@@ -1,0 +1,17 @@
+.table-striped {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table-striped td {
+  border: 1px dashed #ddd;
+  padding: 8px;
+}
+
+.table-striped tr:nth-child(even) {
+  background-color: #fff;
+}
+
+.table-striped tr:hover {
+  background-color: #fff;
+}

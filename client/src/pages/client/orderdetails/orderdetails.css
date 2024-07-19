@@ -1,0 +1,27 @@
+/* Desktop */
+@media screen and (min-width: 990px) {
+  .orderDetails {
+    padding-top: 40px;
+    background-color: #fff;
+  }
+  .ProfileAllOrders {
+    padding: 40px 10px 40px 40px;
+  }
+  .ProfileCustomer {
+    padding: 40px 40px 40px 10px;
+  }
+}
+
+/* Mobile */
+@media screen and (max-width: 990px) {
+  .orderDetails {
+    padding-top: 10px;
+    background-color: #fff;
+  }
+  .ProfileAllOrders {
+    padding: 20px;
+  }
+  .ProfileCustomer {
+    padding: 20px;
+  }
+}

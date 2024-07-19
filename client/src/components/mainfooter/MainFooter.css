@@ -1,0 +1,39 @@
+@media screen and (min-width: 990px) {
+  .Footer1sectionstyle {
+    padding: 10px 20px 40px 40px !important;
+  }
+  .Footer2sectionstyle {
+    padding: 40px 10px 0px 20px !important;
+  }
+  .Footer3sectionstyle {
+    padding: 40px !important;
+  }
+  .Footer4sectionstyle {
+    padding: 40px !important;
+  }
+  .MapStylingFooter {
+    width: 100%;
+    height: 250px;
+    border: 0px;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .Footer1sectionstyle {
+    padding: 0px 30px 40px 30px !important;
+  }
+  .Footer2sectionstyle {
+    padding: 0px 40px 10px 40px !important;
+  }
+  .Footer3sectionstyle {
+    padding: 0px 40px 10px 40px !important;
+  }
+  .Footer4sectionstyle {
+    padding: 0px 40px 0px 40px !important;
+  }
+  .MapStylingFooter {
+    width: 100%;
+    height: 250px;
+    border: 0px;
+  }
+}

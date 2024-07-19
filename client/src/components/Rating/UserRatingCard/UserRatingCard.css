@@ -1,0 +1,109 @@
+.user-rating-main {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+.user-rating-main-top {
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: space-between;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: space-between;
+  justify-content: space-between;
+  display: flex;
+  gap: 10px;
+}
+.user-rating-main-top-user{
+  display: flex;
+    gap: 0.4rem;
+}
+
+.user-rating-verified{
+  margin-left: 6px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #5299f0;
+    line-height: 16px;
+
+}
+.user-rating-user-profile {
+  width: 36px;
+  height: 36px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+  line-height: 36px;
+  position: relative;
+  background: #b9b9b9;
+  border-radius: 50%;
+}
+.user-rating-content-warp {
+  padding-left: 48px;
+}
+
+.user-rating-photos {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin-top: 8px;
+}
+
+.user-rating-user-name{
+  display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 700;
+    color: #222;
+    line-height: 16px;
+    margin-bottom: 4px;
+}
+
+.user-rating-img{
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.user-rating-main-title {
+  margin-top: 18px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #222;
+  line-height: 16px;
+  word-break: break-all;
+}
+
+.user-rating-main-default {
+  margin-top: 8px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #222;
+  line-height: 22px;
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: -o-ellipsis-lastline;
+  text-overflow: ellipsis;
+  white-space: normal;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 7;
+  position: relative;
+}
+.user-rating-photos-item {
+  margin-right: 8px;
+  margin-bottom: 8px;
+  width: 130px;
+  height: 130px;
+  border-radius: 4px;
+  position: relative;
+  cursor: pointer;
+}
+.user-rating-main-date {
+  font-size: 14px;
+  font-weight: 400;
+  color: #777;
+}

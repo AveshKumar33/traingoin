@@ -1,0 +1,33 @@
+.ImageContainer {
+  position: relative !important;
+  display: inline-block !important;
+}
+
+.ImageContainer img {
+  max-width: 100%;
+  height: auto;
+}
+
+.Dot {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: red;
+  transform: translate(-50%, -50%);
+  border: 5px solid #ddd;
+}
+
+.showImagesDot {
+  display: flex;
+  gap: 10px;
+  flex-direction: column-reverse;
+  align-items: center;
+}
+
+.images-Dot {
+  border: 1px solid gray;
+  display: flex;
+  flex-direction: column;
+  /* gap: 10px; */
+}

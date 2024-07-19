@@ -1,0 +1,29 @@
+.share-link-container {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: auto auto;
+  /* background-color: #2196F3; */
+  /* padding: 10px; */
+}
+
+.share-link-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgb(154 150 150 / 80%);
+  padding: 20px;
+  font-size: 30px;
+  height: 70px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.share-link-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  gap: 10px;
+}
+.share-link-icon-text {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}

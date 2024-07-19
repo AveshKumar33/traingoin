@@ -1,0 +1,40 @@
+.blinking-border {
+  outline: 2px dotted #475b52;
+  animation: blink 1000ms infinite;
+}
+
+@keyframes blink {
+  0%,
+  100% {
+    outline-color: transparent;
+  }
+  50% {
+    outline-color: #475b52;
+  }
+}
+@media screen and (min-width: 990px) {
+  .customizedcombinationproductdetailsdivstyle {
+    float: left;
+    margin-right: 5px;
+    width: 49.8vw;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-top: 5px;
+  }
+  .customizedcombinationproductdetailsimagestyle {
+    height: 90vh;
+  }
+}
+@media screen and (max-width: 990px) {
+  .customizedcombinationproductdetailsdivstyle {
+    float: left;
+    margin-right: 5px;
+    width: 100vw;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-top: 5px;
+  }
+  .customizedcombinationproductdetailsimagestyle {
+    height: auto;
+  }
+}

@@ -1,0 +1,191 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+/* Desktop */
+
+/* .css-2pcrdd-MuiInputBase-root-MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: #ddd !important;
+  border: none !important;
+  border-width: 2px;
+} */
+
+.no-spin-button input::-webkit-outer-spin-button,
+.no-spin-button input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.css-2pcrdd-MuiInputBase-root-MuiOutlinedInput-root.Mui-focused {
+  outline: 1px solid #ddd !important;
+  /* border-color: #ddd !important; */
+}
+
+.text-danger {
+  font-size: "1px" !important;
+}
+
+@media screen and (min-width: 990px) {
+  .alreadystyle {
+    font-size: 16px;
+    font-weight: 500;
+    text-align: right;
+    font-family: "Inter", "sans-serif";
+  }
+
+  .leftsection {
+    float: left;
+    padding: 60px;
+  }
+
+  .buttonsection1 {
+    float: left;
+  }
+
+  .buttonsection2 {
+    float: left;
+  }
+
+  .HideInDesktop {
+    display: none;
+  }
+
+  .Mobilecartdetails {
+    background-color: #475b52;
+    float: left;
+    padding: 70px;
+    border-left: 1px solid #cac9c4;
+  }
+
+  .CheckOutimage-area {
+    position: relative;
+    height: 10vh;
+    width: 5vw;
+    background: #333;
+    border-radius: 10px;
+  }
+
+  .CheckOutimage-area img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+
+  .CheckOutremove-image {
+    display: none;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    border-radius: 10em;
+    padding: 1px 8px 4px;
+    text-decoration: none;
+    /* font: 700 21px/20px sans-serif; */
+    background: #555;
+    border: 3px solid #fff;
+    color: #fff;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5), inset 0 2px 4px rgba(0, 0, 0, 0.3);
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+    -webkit-transition: background 0.5s;
+    transition: background 0.5s;
+    text-decoration: none;
+    width: 30px;
+    height: 30px;
+  }
+}
+
+/* Mobile */
+@media screen and (max-width: 990px) {
+  .alreadystyle {
+    font-size: 12px;
+    font-weight: 500;
+    text-align: right;
+    padding-left: 60px;
+    padding-top: 4px;
+  }
+
+  .leftsection {
+    float: left;
+    padding: 40px;
+    padding-bottom: 0px;
+  }
+
+  .buttonsection1 {
+    float: left;
+    width: 100%;
+    margin-left: 100px;
+  }
+
+  .buttonsection2 {
+    float: left;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* margin-left: 70px; */
+  }
+
+  .HideInPhone {
+    display: none;
+  }
+
+  .Mobilecartdetails {
+    background-color: #475b52;
+    float: left;
+    padding: 20px;
+    border-left: 1px solid #cac9c4;
+  }
+
+  .CheckOutimage-area {
+    position: relative;
+    height: 6vh;
+    width: 14vw;
+    background: #333;
+    border-radius: 10px;
+    margin-top: 10px;
+  }
+
+  .CheckOutimage-area img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+
+  .CheckOutremove-image {
+    display: none;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    border-radius: 10em;
+    padding: 1px 8px 4px;
+    text-decoration: none;
+    /* font: 700 21px/20px sans-serif; */
+    background: #555;
+    border: 3px solid #fff;
+    color: #fff;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5), inset 0 2px 4px rgba(0, 0, 0, 0.3);
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+    -webkit-transition: background 0.5s;
+    transition: background 0.5s;
+    text-decoration: none;
+    width: 30px;
+    height: 30px;
+  }
+}
+.css-juwf7d {
+  max-width: 100vw !important;
+  gap: none;
+}
+.css-hlqe2z-MuiSvgIcon-root-MuiStepIcon-root.Mui-active {
+  border: none !important;
+  color: #475b52 !important;
+}
+.css-1ee4ty0-MuiButtonBase-root-MuiButton-root {
+  background-color: #475b52 !important;
+  color: #fff !important;
+  border: none !important;
+}
+
+.css-1ee4ty0-MuiButtonBase-root-MuiButton-root:hover {
+  background-color: #475b52 !important;
+  color: #fff !important;
+  border: none !important;
+}
+.css-5a36qr-MuiSvgIcon-root{
+  color: #475b52 !important;
+}
